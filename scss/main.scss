@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+
+/* font family / fuente */
+    a {
+    color: black;
+}
+
+}
+
+////////// Imports Variables //////////
+
+/// variables ///
+@import './variables/variables';
+
+/// extends ///
+@import './variables/extends';
+
+/// mixins ///
+@import './variables/mixins';
+
+////////// Import Header (all html) //////////
+@import './header/header';
+
+////////// Layout index.html //////////
+@import './layouts/inicio';
+
+////////// Layout contacto.html //////////
+@import './layouts/contacto';
+
+////////// Layout nosotros.html //////////
+@import './layouts/nosotros';
+
+////////// Layout preguntas.html //////////
+@import './layouts/preguntas';
+
+////////// Layout ubicacion.html //////////
+@import './layouts/ubicacion';
+
+////////// Import Footer (all html) //////////
+@import './footer/footer';
