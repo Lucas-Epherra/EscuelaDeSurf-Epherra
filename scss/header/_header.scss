@@ -1,0 +1,65 @@
+/* barra de navegacion  */
+
+    nav {
+
+        background: $GradientBg;
+
+        div {
+
+            //hover sobre logos
+
+            .logos {
+                border-radius: 100%;
+
+                &:hover {
+                    transform: scale(1.1, 1.1);
+                }
+            }
+
+            /* menu hamburguesa*/
+
+            .navbar-toggler {
+                border: black solid 2px;
+            }
+
+            div {
+
+                .navbar-nav {
+                    display: flex;
+                    align-items: flex-end;
+                }
+
+                /* boton active */
+
+                .active {
+
+                    color: white !important;
+                    font-weight: 700 !important;
+
+                    &:hover {
+                        color: rgb(0, 0, 0);
+                        font-weight: 800;
+                        background-color: #ffffff32;
+                    }
+
+                }
+
+                /* botones del navbar (hovers) y personalizacion de botones*/
+                .nav-link {
+                    color: rgba(255, 253, 253, 0.746);
+                    font-weight: 500;
+                    font-size: large;
+
+                    &:hover {
+                        font-weight: 700;
+                        background-color: #ffffff32;
+                        color: rgb(0, 0, 0);
+
+                    }
+
+                }
+
+            }
+        }
+
+    }

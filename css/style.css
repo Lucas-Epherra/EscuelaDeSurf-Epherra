@@ -7,3 +7,62 @@
   /* font family / fuente */ }
   * a {
     color: black; }
+
+/* barra de navegacion  */
+nav {
+  background: linear-gradient(to right, #f97800, #ffaa00, #ffd900); }
+  nav div {
+    /* menu hamburguesa*/ }
+    nav div .logos {
+      border-radius: 100%; }
+      nav div .logos:hover {
+        transform: scale(1.1, 1.1); }
+    nav div .navbar-toggler {
+      border: black solid 2px; }
+    nav div div {
+      /* boton active */
+      /* botones del navbar (hovers) y personalizacion de botones*/ }
+      nav div div .navbar-nav {
+        display: flex;
+        align-items: flex-end; }
+      nav div div .active {
+        color: white !important;
+        font-weight: 700 !important; }
+        nav div div .active:hover {
+          color: black;
+          font-weight: 800;
+          background-color: #ffffff32; }
+      nav div div .nav-link {
+        color: rgba(255, 253, 253, 0.746);
+        font-weight: 500;
+        font-size: large; }
+        nav div div .nav-link:hover {
+          font-weight: 700;
+          background-color: #ffffff32;
+          color: black; }
+
+.footer {
+  background-color: linear-gradient(to right, #f97800, #ffaa00, #ffd900);
+  padding-bottom: 1rem; }
+  .footer .menuFooter {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 6rem;
+    width: 100%;
+    list-style: none;
+    margin: 0px;
+    padding: 0px; }
+  .footer .footerLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; }
+  .footer .logos {
+    border-radius: 100%; }
+  .footer .social {
+    margin: 0px 10px 10px 10px; }
+  .footer .social:hover {
+    transform: scale(1.2, 1.2); }
+  .footer .logos:hover {
+    transform: scale(1.1, 1.1); }
