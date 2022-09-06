@@ -1,0 +1,9 @@
+// creacion mixins
+
+@mixin justify-center ($f-wrap, $f-direct, $a-items) {
+    flex-wrap: $f-wrap;
+    flex-direction: $f-direct;
+    align-items: $a-items;
+    display: flex;
+    justify-content: center;
+}

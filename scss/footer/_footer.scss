@@ -1,41 +1,52 @@
-.footer {
-    background-color:$GradientBg;
+footer {
+
+    background: $GradientBg;
     padding-bottom: 1rem;
 
-
     .menuFooter {
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
+        @include justify-center (none,none, flex-end);
         height: 6rem;
         width: 100%;
         list-style: none;
         margin: 0px;
         padding: 0px;
+
+        .social {
+            margin: 0px 10px 10px 10px;
+
+            &:hover {
+                transform: scale(1.2, 1.2);
+
+            }
+        }
     }
 
     .footerLogo {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include justify-center (none,none,center);
+
         width: 100%;
+
+        .logos {
+            border-radius: 100%;
+
+            &:hover {
+                transform: scale(1.1, 1.1);
+
+            }
+        }
     }
 
-    .logos {
-        border-radius: 100%;
-    }
+    span {
 
-    .social {
-        margin: 0px 10px 10px 10px;
-    }
-
-    .social:hover {
-        transform: scale(1.2, 1.2);
-
-    }
-
-    .logos:hover {
-        transform: scale(1.1, 1.1);
+        .texto-footer {
+            @include justify-center (wrap, column, center,);
+            text-align: center;
+            font-size:smaller;
+            font-weight: 500;
+            margin: 1rem;
+        }
 
     }
+
+
 }
