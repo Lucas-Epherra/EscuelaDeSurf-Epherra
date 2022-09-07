@@ -8,42 +8,93 @@
   * a {
     color: black; }
 
+.bg-personalizado {
+  background-image: url("../imagenes/blueGradient.png");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.bg-personalizado div .card .card-body {
+  background-image: url("../imagenes/wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+nav div div .active:hover, nav div div .nav-link:hover {
+  transform: scale(1.05, 1.05); }
+
 /* barra de navegacion  */
 nav {
   background: linear-gradient(to right, #f97800, #ffaa00, #ffd900); }
-  nav div {
-    /* menu hamburguesa*/ }
-    nav div .logos {
-      border-radius: 100%; }
-      nav div .logos:hover {
-        transform: scale(1.1, 1.1); }
-    nav div .navbar-toggler {
-      border: black solid 2px; }
-    nav div div {
-      /* boton active */
-      /* botones del navbar (hovers) y personalizacion de botones*/ }
-      nav div div .navbar-nav {
+  nav div .logos {
+    border-radius: 100%; }
+    nav div .logos:hover {
+      transform: scale(1.1, 1.1); }
+  nav div .navbar-toggler {
+    border: rgba(255, 255, 255, 0.638) solid 2px; }
+  nav div div .navbar-nav {
+    display: flex;
+    align-items: flex-end; }
+  nav div div .active {
+    color: white !important;
+    font-weight: 700 !important;
+    text-decoration: overline; }
+    nav div div .active:hover {
+      color: white !important;
+      font-weight: 800 !important;
+      background-color: #ffffff32;
+      padding: 5px; }
+  nav div div .nav-link {
+    color: white;
+    font-weight: 500;
+    font-size: large; }
+    nav div div .nav-link:hover {
+      color: white;
+      font-weight: 700;
+      background-color: #ffaf0163;
+      padding: 5px; }
+
+/* container main index.html */
+.bg-personalizado {
+  padding: 1rem; }
+  .bg-personalizado .titulos {
+    font-style: italic;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    padding: 2rem;
+    color: #ffc402; }
+  .bg-personalizado div .card {
+    margin-bottom: 1rem;
+    border-width: 0px !important;
+    border-color: none !important; }
+    .bg-personalizado div .card .imgEscuela {
+      height: 216.34px; }
+    .bg-personalizado div .card .card-body {
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px; }
+      .bg-personalizado div .card .card-body .card-title {
+        color: white;
+        text-align: center;
+        padding-bottom: 5px;
+        border-bottom: white 2px solid; }
+      .bg-personalizado div .card .card-body .card-text {
+        text-align: center;
+        color: white; }
+      .bg-personalizado div .card .card-body .btn {
+        flex-wrap: none;
+        flex-direction: none;
+        align-items: center;
         display: flex;
-        align-items: flex-end; }
-      nav div div .active {
-        color: white !important;
-        font-weight: 700 !important; }
-        nav div div .active:hover {
-          color: black;
-          font-weight: 800;
-          background-color: #ffffff32; }
-      nav div div .nav-link {
-        color: rgba(255, 253, 253, 0.746);
+        justify-content: center;
         font-weight: 500;
-        font-size: large; }
-        nav div div .nav-link:hover {
-          font-weight: 700;
-          background-color: #ffffff32;
-          color: black; }
+        background-color: rgba(255, 255, 255, 0.196);
+        color: #f8f8f8; }
+        .bg-personalizado div .card .card-body .btn:hover {
+          color: #ffc402;
+          transform: scale(1.05, 1.1); }
 
 footer {
   background: linear-gradient(to right, #f97800, #ffaa00, #ffd900);
-  padding-bottom: 1rem; }
+  padding: 1rem; }
   footer .menuFooter {
     flex-wrap: none;
     flex-direction: none;

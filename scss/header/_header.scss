@@ -6,8 +6,6 @@
 
         div {
 
-            //hover sobre logos
-
             .logos {
                 border-radius: 100%;
 
@@ -16,10 +14,8 @@
                 }
             }
 
-            /* menu hamburguesa*/
-
             .navbar-toggler {
-                border: black solid 2px;
+                border: rgba(255, 255, 255, 0.638) solid 2px;
             }
 
             div {
@@ -29,37 +25,36 @@
                     align-items: flex-end;
                 }
 
-                /* boton active */
-
                 .active {
 
-                    color: white !important;
+                    color:$btn-letter !important;
                     font-weight: 700 !important;
+                    text-decoration:overline;
+
 
                     &:hover {
-                        color: rgb(0, 0, 0);
-                        font-weight: 800;
+                        color:$btn-letter !important;
+                        font-weight: 800 !important;
                         background-color: #ffffff32;
+                        padding: 5px;
+                        @extend %tranfo-scale;
                     }
 
                 }
 
-                /* botones del navbar (hovers) y personalizacion de botones*/
                 .nav-link {
-                    color: rgba(255, 253, 253, 0.746);
+                    color:$btn-letter;
                     font-weight: 500;
                     font-size: large;
 
                     &:hover {
+                        color:$btn-letter;
                         font-weight: 700;
-                        background-color: #ffffff32;
-                        color: rgb(0, 0, 0);
-
+                        background-color: #ffaf0163;
+                        padding: 5px;
+                        @extend %tranfo-scale;
                     }
-
                 }
-
             }
         }
-
     }

@@ -1,7 +1,7 @@
 footer {
 
     background: $GradientBg;
-    padding-bottom: 1rem;
+    padding: 1rem;
 
     .menuFooter {
         @include justify-center (none,none, flex-end);
