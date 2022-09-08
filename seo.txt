@@ -1,0 +1,29 @@
+(1)_ Se agrego la etiqueta meta keywords en todos los html:
+
+- index : escuela, surf, clases, dunamar, olas, viento.
+
+- nosotros : escuela, surf, clases, dunamar, profes, instructores.
+
+- contacto : escuela, surf, clases, dunamar, email, contacto.
+
+- preguntas : escuela, surf, clases, dunamar, faqs, preguntas, dudas.
+
+- ubicacion : escuela, surf, clases, dunamar, mapa, ubicacion.
+
+(2)_ Se agrego la etiqueta meta description en todos los html:
+
+- index : Somos una escuela de surf que se dedica a dictar clases de surf personalizadas en la playa de dunamar...
+
+- nosotros : Los instructores de la escuela viento norte dunamar facundo gimenez y sofia rodriguez...
+
+- contacto : Formulario y otras vias de contacto de viento norte escuela de surf.
+
+- preguntas : Recopilacion de dudas y preguntas frecuentes.
+
+- ubicacion : Mapa navegable con la ubicacion de la escuela de surf viento norte.
+
+(3)_ Se optimizaron las imagenes (se redujo el peso de todos los archivos (manteniendo la calidad)).
+
+(4)_ Se coloco un titulo personalizado en la etiqueta title para cada html (nos sirve de guia).
+
+(5)_ Se agrego sitemap.xml
