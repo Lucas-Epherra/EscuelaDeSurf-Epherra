@@ -4,16 +4,6 @@
     .containerMain {
         padding: 2rem;
 
-        span {
-
-            .texto-contacto {
-                @include justify-center(column, nowrap, center);
-                margin: 1rem;
-                color: #fafafa;
-                font-size: medium;
-            }
-        }
-
         .accordion-body {
             background-color: rgba(0, 195, 255, 0.444);
             text-align: center;

@@ -11,8 +11,9 @@
 
         span {
 
-            .texto-contacto {
-                font-size: medium;
+            .texto-complementario {
+                @include justify-center(column, nowrap, center);
+                @include text-complement;
             }
         }
 

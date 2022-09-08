@@ -26,4 +26,4 @@
 
 (4)_ Se coloco un titulo personalizado en la etiqueta title para cada html (nos sirve de guia).
 
-(5)_ Se agrego sitemap.xml
+(5)_ Se agrego sitemap.xml 

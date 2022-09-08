@@ -7,3 +7,9 @@
     display: flex;
     justify-content: center;
 }
+
+@mixin text-complement {
+    margin: 1rem;
+    color: #fafafa;
+    font-size: medium;
+}
