@@ -1,0 +1,16 @@
+.bg-personalizado {
+
+    .texto-contacto {
+        @include justify-center(column, nowrap, center);
+        margin: 1rem;
+        color: #fafafa;
+        font-size: medium;
+    }
+
+
+    .containerMap {
+        @include justify-center (none, none, center);
+        padding: 20px;
+    }
+
+}

@@ -8,13 +8,22 @@
   * a {
     color: black; }
 
+.bg-personalizado div span .contactoTitulo {
+  color: #34baab;
+  background-color: #8989896a;
+  font-style: italic;
+  font-weight: 600;
+  transform: skewY(5deg);
+  padding: 1rem;
+  margin: 2rem; }
+
 .bg-personalizado {
   background-image: url("../imagenes/blueGradient.png");
   background-size: cover;
   background-repeat: no-repeat; }
 
-.bg-personalizado div .card .card-body {
-  background-image: url("../imagenes/wallpaper.jpg");
+.bg-personalizado div .card .card-body, .bg-personalizado div .formBox .formulario {
+  background-image: url("../imagenes/wallpaper.png");
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -91,6 +100,111 @@ nav {
         .bg-personalizado div .card .card-body .btn:hover {
           color: #ffc402;
           transform: scale(1.05, 1.1); }
+
+.bg-personalizado div span .texto-contacto {
+  font-size: medium; }
+
+.bg-personalizado div .formBox {
+  flex-wrap: column;
+  flex-direction: nowrap;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px; }
+  .bg-personalizado div .formBox .formulario {
+    align-self: center;
+    border: #fafafa solid 1px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    width: fit-content; }
+    .bg-personalizado div .formBox .formulario .boton {
+      background-color: #dfe1df;
+      font-weight: 500;
+      padding: 4px;
+      margin: 3px;
+      border-radius: 10px;
+      color: black; }
+      .bg-personalizado div .formBox .formulario .boton:hover {
+        transform: scale(1.05, 1.05);
+        font-weight: 600;
+        color: black; }
+    .bg-personalizado div .formBox .formulario .inputs {
+      background-color: #fcfffdd1;
+      border: 0.5px solid black;
+      font-weight: 600;
+      padding: 5px;
+      border-radius: 15px; }
+      .bg-personalizado div .formBox .formulario .inputs::placeholder {
+        color: black;
+        font-weight: 400; }
+      .bg-personalizado div .formBox .formulario .inputs:focus {
+        background-color: #fafafa; }
+      .bg-personalizado div .formBox .formulario .inputs:hover {
+        background-color: #fafafa;
+        transition: 1ms; }
+    .bg-personalizado div .formBox .formulario .label {
+      font-weight: 300;
+      color: #fafafa;
+      padding: 3px; }
+
+.bg-personalizado .contenedorPrincipal {
+  flex-wrap: none;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center; }
+  .bg-personalizado .contenedorPrincipal .parrafos {
+    text-align: center;
+    margin: 15px;
+    padding: 1rem;
+    color: white;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif; }
+
+.bg-personalizado {
+  padding: 2rem; }
+  .bg-personalizado .containerMain {
+    padding: 2rem; }
+    .bg-personalizado .containerMain span .texto-contacto {
+      flex-wrap: column;
+      flex-direction: nowrap;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      margin: 1rem;
+      color: #fafafa;
+      font-size: medium; }
+    .bg-personalizado .containerMain .accordion-body {
+      background-color: rgba(0, 195, 255, 0.444);
+      text-align: center;
+      font-size: medium;
+      font-weight: 400; }
+    .bg-personalizado .containerMain .accordion-button:not(collapsed) {
+      color: #fafafa;
+      font-weight: 400;
+      font-size: large;
+      background-color: #1796e4; }
+      .bg-personalizado .containerMain .accordion-button:not(collapsed):hover {
+        background-color: rgba(23, 149, 228, 0.895); }
+
+.bg-personalizado .texto-contacto {
+  flex-wrap: column;
+  flex-direction: nowrap;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  color: #fafafa;
+  font-size: medium; }
+
+.bg-personalizado .containerMap {
+  flex-wrap: none;
+  flex-direction: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px; }
 
 footer {
   background: linear-gradient(to right, #f97800, #ffaa00, #ffd900);

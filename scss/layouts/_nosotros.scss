@@ -1,0 +1,16 @@
+.bg-personalizado {
+
+    .contenedorPrincipal {
+        @include justify-center (none,column,center);
+
+
+        .parrafos {
+            text-align: center;
+            margin: 15px;
+            padding: 1rem;
+            color:$btn-letter;
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}

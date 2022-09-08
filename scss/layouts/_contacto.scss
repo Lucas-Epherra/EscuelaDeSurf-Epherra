@@ -1,0 +1,80 @@
+.bg-personalizado {
+
+    div {
+
+        span {
+
+            .contactoTitulo {
+                @extend %titulos;
+            }
+        }
+
+        span {
+
+            .texto-contacto {
+                font-size: medium;
+            }
+        }
+
+        .formBox {
+            @include justify-center(column, nowrap, center);
+            border-radius: 15px;
+
+
+            .formulario {
+                align-self: center;
+                @extend %bg-wallpaper;
+                border:#fafafa solid 1px;
+                padding: 15px;
+                border-radius: 10px;
+                margin-bottom: 2rem;
+                width: fit-content;
+
+                .boton {
+                    background-color: #dfe1df;
+                    font-weight: 500;
+                    padding: 4px;
+                    margin: 3px;
+                    border-radius: 10px;
+                    color: black;
+
+                    &:hover {
+                        transform: scale(1.05,1.05);
+                        font-weight: 600;
+                        color: black;
+                    }
+                }
+
+                .inputs {
+                    background-color: #fcfffdd1;
+                    border:0.5px solid black;
+                    font-weight: 600;
+                    padding: 5px;
+                    border-radius: 15px;
+
+                    &::placeholder {
+                        color: rgb(0, 0, 0);
+                        font-weight: 400;
+                    }
+
+                    &:focus {
+                        background-color: #fafafa;
+                    }
+
+                    &:hover {
+                        background-color: #fafafa;
+                        transition: 1ms;
+                    }
+
+                }
+
+                .label {
+                    font-weight: 300;
+                    color: #fafafa;
+                    padding: 3px;
+                }
+
+            }
+        }
+    }
+}
