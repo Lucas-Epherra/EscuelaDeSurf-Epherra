@@ -4,13 +4,14 @@
     text-decoration: none;
     box-sizing: border-box;
     list-style-type: none;
-/* font family / fuente */
-
+    font-family: 'Ruda', sans-serif;
     a {
     color: black;
 }
 
 }
+/////////// Import Fuente //////////
+@import './variables/fonts';
 
 ////////// Imports Variables //////////
 
