@@ -79,8 +79,8 @@ nav {
     margin-bottom: 1rem;
     border-width: 0px !important;
     border-color: none !important; }
-    .bg-personalizado div .card .imgEscuela {
-      height: 216.34px; }
+    .bg-personalizado div .card .card-img-top:hover {
+      transform: scale(1.02, 1.02); }
     .bg-personalizado div .card .card-body {
       border-bottom-left-radius: 4px;
       border-bottom-right-radius: 4px; }

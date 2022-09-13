@@ -25,9 +25,11 @@
             border-width: 0px !important;
             border-color: none !important;
 
-            .imgEscuela {
-                height: 216.34px;
-            }
+             .card-img-top {
+                &:hover {
+                    transform: scale(1.02,1.02)
+                }
+            } 
 
             .card-body {
                 @extend %bg-wallpaper;
