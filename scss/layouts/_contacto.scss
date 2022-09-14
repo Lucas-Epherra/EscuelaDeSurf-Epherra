@@ -1,7 +1,7 @@
 .bg-personalizado {
 
     div {
-
+ 
         span {
 
             .contactoTitulo {
@@ -20,7 +20,7 @@
         .formBox {
             @include justify-center(column, nowrap, center);
             border-radius: 15px;
-
+            margin:0 auto;
 
             .formulario {
                 align-self: center;
@@ -52,6 +52,9 @@
                     font-weight: 600;
                     padding: 5px;
                     border-radius: 15px;
+                    display:block;
+                    width:100%;
+                    margin:0px 0px 15px 0px;
 
                     &::placeholder {
                         color: rgb(0, 0, 0);

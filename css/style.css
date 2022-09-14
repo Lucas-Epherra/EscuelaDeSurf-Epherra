@@ -121,7 +121,8 @@ nav {
   align-items: center;
   display: flex;
   justify-content: center;
-  border-radius: 15px; }
+  border-radius: 15px;
+  margin: 0 auto; }
   .bg-personalizado div .formBox .formulario {
     align-self: center;
     border: #fafafa solid 1px;
@@ -145,7 +146,10 @@ nav {
       border: 0.5px solid black;
       font-weight: 600;
       padding: 5px;
-      border-radius: 15px; }
+      border-radius: 15px;
+      display: block;
+      width: 100%;
+      margin: 0px 0px 15px 0px; }
       .bg-personalizado div .formBox .formulario .inputs::placeholder {
         color: black;
         font-weight: 400; }
