@@ -1,15 +1,34 @@
 .bg-personalizado {
 
     .contenedorPrincipal {
-        @include justify-center (none,column,center);
+        @include justify-center (none, column, center);
 
 
         .parrafos {
+            @include justify-center (none, column, center);
             text-align: center;
             margin: 15px;
             padding: 1rem;
-            color:$btn-letter;
+            color: $btn-letter;
             font-size: larger;
         }
+    }
+}
+
+@media (min-width:992px) {
+
+    .bg-personalizado {
+        .contenedorPrincipal {
+
+            .parrafos {
+                @include justify-center (none, column, center);
+                text-align: center;
+                margin: 2% 23% 2% 23%;
+                padding: 1rem;
+                color: $btn-letter;
+                font-size: larger;
+            }
+        }
+
     }
 }

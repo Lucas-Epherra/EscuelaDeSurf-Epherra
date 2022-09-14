@@ -170,11 +170,29 @@ nav {
   display: flex;
   justify-content: center; }
   .bg-personalizado .contenedorPrincipal .parrafos {
+    flex-wrap: none;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin: 15px;
     padding: 1rem;
     color: white;
     font-size: larger; }
+
+@media (min-width: 992px) {
+  .bg-personalizado .contenedorPrincipal .parrafos {
+    flex-wrap: none;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2% 23% 2% 23%;
+    padding: 1rem;
+    color: white;
+    font-size: larger; } }
 
 .bg-personalizado {
   padding: 2rem; }
