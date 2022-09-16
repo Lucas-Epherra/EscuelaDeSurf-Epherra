@@ -229,42 +229,59 @@ nav {
   justify-content: center;
   padding: 20px; }
 
-footer {
+.footer {
   background: linear-gradient(to right, #f97800, #ffaa00, #ffd900);
-  padding: 1rem; }
-  footer .menuFooter {
-    flex-wrap: none;
-    flex-direction: none;
-    align-items: flex-end;
-    display: flex;
+  padding: 10px;
+  height: 52vh; }
+  .footer .containerGrid {
+    display: grid;
     justify-content: center;
-    height: 6rem;
-    width: 100%;
-    list-style: none;
-    margin: 0px;
-    padding: 0px; }
-    footer .menuFooter .social {
-      margin: 0px 10px 10px 10px; }
-      footer .menuFooter .social:hover {
-        transform: scale(1.2, 1.2); }
-  footer .footerLogo {
-    flex-wrap: none;
-    flex-direction: none;
     align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 100%; }
-    footer .footerLogo .logos {
-      border-radius: 100%; }
-      footer .footerLogo .logos:hover {
-        transform: scale(1.1, 1.1); }
-  footer span .texto-footer {
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: smaller;
-    font-weight: 500;
-    margin: 1rem; }
+    grid-template-columns: repeat(3, 30vw);
+    grid-template-rows: repeat(5, 10vh);
+    grid-template-areas: "sociales sociales sociales" ". . ." "logo logo logo" ". . ." "copy copy copy";
+    /* redes sociales */
+    /* logo volver arriba */
+    /* texto final del footer */ }
+    .footer .containerGrid .sociales {
+      grid-area: sociales; }
+      .footer .containerGrid .sociales .menuFooter {
+        flex-wrap: none;
+        flex-direction: none;
+        align-items: flex-start;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        list-style: none;
+        margin: 10px 0px 0px 0px;
+        padding: 0px; }
+        .footer .containerGrid .sociales .menuFooter .social {
+          margin: 0px 10px 5px 10px; }
+          .footer .containerGrid .sociales .menuFooter .social:hover {
+            transform: scale(1.2, 1.2); }
+    .footer .containerGrid .logo {
+      grid-area: logo; }
+      .footer .containerGrid .logo .footerLogo {
+        flex-wrap: none;
+        flex-direction: none;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 10vh; }
+        .footer .containerGrid .logo .footerLogo .logos {
+          border-radius: 100%; }
+          .footer .containerGrid .logo .footerLogo .logos:hover {
+            transform: scale(1.1, 1.1); }
+    .footer .containerGrid .copy {
+      grid-area: copy; }
+      .footer .containerGrid .copy span .texto-footer {
+        flex-wrap: wrap;
+        height: 10vh;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: smaller;
+        font-weight: 500;
+        padding-bottom: 5px; }
