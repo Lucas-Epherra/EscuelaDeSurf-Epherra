@@ -2,7 +2,7 @@
 
 .padding-top {
 
-    padding-top:148px;
+    padding-top: 148px;
 }
 
 .bg-personalizado {
@@ -15,7 +15,10 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: 700;
         padding: 2rem;
-        color: #ffc402;
+        animation:color_titulo , animate_zoomIn;
+        animation-duration: 4s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
     }
 
     div {
@@ -25,11 +28,11 @@
             border-width: 0px !important;
             border-color: none !important;
 
-             .card-img-top {
+            .card-img-top {
                 &:hover {
-                    transform: scale(1.02,1.02)
+                    transform: scale(1.02, 1.02)
                 }
-            } 
+            }
 
             .card-body {
                 @extend %bg-wallpaper;
@@ -72,5 +75,54 @@
 
     }
 
+
+}
+
+
+@keyframes color_titulo {
+
+    0% {
+        color: #f97800;
+    }
+
+    10% {
+        color: #f98d00;
+    }
+
+    20% {
+        color: #f9a600;
+    }
+
+    30% {
+        color: #ffcc00;
+    }
+
+    40% {
+        color: #ffdd00;
+    }
+
+    50% {
+        color: #fff700;
+    }
+
+    60% {
+        color: #ffdd00;
+    }
+
+    70% {
+        color: #ffcc00;
+    }
+
+    80% {
+        color: #f9a600;
+    }
+
+    90% {
+        color: #f98d00;
+    }
+
+    100% {
+        color: #f97800;
+    }
 
 }
