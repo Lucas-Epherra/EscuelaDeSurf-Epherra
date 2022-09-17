@@ -25,12 +25,11 @@
 
         .card {
             margin-bottom: 1rem;
-            border-width: 0px !important;
-            border-color: none !important;
+            border-width: 0px;
+            border-color: none;
 
             .card-img-top {
-
-                max-height: 216.32px;
+                height: 216px;
                 overflow:hidden;
             }
 

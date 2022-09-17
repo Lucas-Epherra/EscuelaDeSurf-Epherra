@@ -47,8 +47,6 @@ nav {
     color: white !important;
     font-weight: 900 !important; }
     nav div div .active:hover {
-      color: white !important;
-      font-weight: 800 !important;
       background-color: #ffffff32;
       padding: 5px; }
   nav div div .nav-link {
@@ -79,10 +77,10 @@ nav {
     animation-iteration-count: infinite; }
   .bg-personalizado div .card {
     margin-bottom: 1rem;
-    border-width: 0px !important;
-    border-color: none !important; }
+    border-width: 0px;
+    border-color: none; }
     .bg-personalizado div .card .card-img-top {
-      max-height: 216.32px;
+      height: 216px;
       overflow: hidden; }
     .bg-personalizado div .card .card-body {
       border-bottom-left-radius: 4px;
