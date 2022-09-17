@@ -29,6 +29,10 @@
             border-color: none !important;
 
             .card-img-top {
+
+                max-height: 216.32px;
+                overflow:hidden;
+
                 &:hover {
                     transform: scale(1.02, 1.02)
                 }
