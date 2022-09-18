@@ -4,6 +4,16 @@
         @include justify-center (none, column, center);
 
 
+        div {
+            .img-texto {
+                @include justify-center (none, column, center);
+                text-align: center;
+                color: $btn-letter;
+                margin: 5px;
+                font-size: small;
+            }
+        }
+
         .parrafos {
             @include justify-center (none, column, center);
             text-align: center;

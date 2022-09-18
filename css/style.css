@@ -194,6 +194,16 @@ nav {
   align-items: center;
   display: flex;
   justify-content: center; }
+  .bg-personalizado .contenedorPrincipal div .img-texto {
+    flex-wrap: none;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: 5px;
+    font-size: small; }
   .bg-personalizado .contenedorPrincipal .parrafos {
     flex-wrap: none;
     flex-direction: column;
